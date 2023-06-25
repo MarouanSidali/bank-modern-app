@@ -9,6 +9,7 @@ import {
   Clients,
   CTA,
   Footer,
+  Billing,
 } from "./components";
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Buisness />
+          <Billing />
           <CardDeal />
           <Testimonials />
           <Clients />
