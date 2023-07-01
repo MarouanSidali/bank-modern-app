@@ -12,6 +12,7 @@ const Billing = () => {
           // *****Gradient On the billing section*****
         // <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient'/>
         }
+        </div>
 
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>
@@ -22,7 +23,7 @@ const Billing = () => {
             exercitationem ut dicta velit saepe non quia eaque voluptatibus.
           </p>
         </div>
-      </div>
+      
     </section>
   )
 }
